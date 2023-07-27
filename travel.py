@@ -26,4 +26,11 @@ if __name__=="__main__":
     try_again=input("do you want to try again with different number of nodes?(yes/no):").lower()
     if try_again !="yes":
       break
+    #OUTPUT:
+#     enter the number of dril holes(nodes):3
+# enter the distance between nodes1 and node2:7
+# enter the distance between nodes1 and node3:5
+# enter the distance between nodes2 and node3:1
+# optimal drilling order: [1, 3, 2, 3, 1]
+#  Total optimal cost: 12.0
     
